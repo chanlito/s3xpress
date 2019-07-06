@@ -15,6 +15,7 @@
     "start": "tsdx watch --target node --format cjs",
     "build": "tsdx build --target node --format cjs",
     "test": "tsdx test",
+    "prepare": "yarn build",
     "postversion": "git push && git push --tags"
   },
   "devDependencies": {
