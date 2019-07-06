@@ -7,6 +7,10 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chanlito/s3xpress"
+  },
   "scripts": {
     "start": "tsdx watch --target node --format cjs",
     "build": "tsdx build --target node --format cjs",
