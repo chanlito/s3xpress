@@ -10,7 +10,8 @@
   "scripts": {
     "start": "tsdx watch --target node --format cjs",
     "build": "tsdx build --target node --format cjs",
-    "test": "tsdx test"
+    "test": "tsdx test",
+    "postversion": "git push && git push --tags"
   },
   "devDependencies": {
     "@types/cors": "^2.8.5",
