@@ -24,7 +24,7 @@
     "@types/express": "^4.17.1",
     "@types/jest": "^24.0.18",
     "@types/mime": "^2.0.1",
-    "aws-sdk": "^2.543.0",
+    "aws-sdk": "^2.814.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "husky": "^3.0.8",
